@@ -1,0 +1,211 @@
+{
+  "config": {
+    "seeds": [
+      7,
+      19,
+      42
+    ],
+    "events_per_seed": 600,
+    "max_attempts": 3,
+    "naive_sweeps": 3
+  },
+  "per_seed": {
+    "7": {
+      "naive_replay": {
+        "strategy": "naive_replay",
+        "dlq_after_live": 340,
+        "recovered": 510,
+        "intended_effects": 510,
+        "recovery_rate": 1.0,
+        "duplicate_effects": 60,
+        "duplicate_effect_rate": 0.1176,
+        "poison_redeliveries": 180,
+        "replay_deliveries": 520,
+        "resolved_without_replay": 0,
+        "quarantined": 0,
+        "remaining_dlq": 90,
+        "handler_invocations_live": 1160,
+        "handler_invocations_total": 1680
+      },
+      "no_replay": {
+        "strategy": "no_replay",
+        "dlq_after_live": 340,
+        "recovered": 260,
+        "intended_effects": 510,
+        "recovery_rate": 0.5098,
+        "duplicate_effects": 0,
+        "duplicate_effect_rate": 0.0,
+        "poison_redeliveries": 0,
+        "replay_deliveries": 0,
+        "resolved_without_replay": 0,
+        "quarantined": 0,
+        "remaining_dlq": 340,
+        "handler_invocations_live": 1160,
+        "handler_invocations_total": 1160
+      },
+      "classified_replay": {
+        "strategy": "classified_replay",
+        "dlq_after_live": 340,
+        "recovered": 510,
+        "intended_effects": 510,
+        "recovery_rate": 1.0,
+        "duplicate_effects": 0,
+        "duplicate_effect_rate": 0.0,
+        "poison_redeliveries": 0,
+        "replay_deliveries": 190,
+        "resolved_without_replay": 60,
+        "quarantined": 90,
+        "remaining_dlq": 0,
+        "handler_invocations_live": 1160,
+        "handler_invocations_total": 1350
+      }
+    },
+    "19": {
+      "naive_replay": {
+        "strategy": "naive_replay",
+        "dlq_after_live": 340,
+        "recovered": 510,
+        "intended_effects": 510,
+        "recovery_rate": 1.0,
+        "duplicate_effects": 60,
+        "duplicate_effect_rate": 0.1176,
+        "poison_redeliveries": 180,
+        "replay_deliveries": 520,
+        "resolved_without_replay": 0,
+        "quarantined": 0,
+        "remaining_dlq": 90,
+        "handler_invocations_live": 1160,
+        "handler_invocations_total": 1680
+      },
+      "no_replay": {
+        "strategy": "no_replay",
+        "dlq_after_live": 340,
+        "recovered": 260,
+        "intended_effects": 510,
+        "recovery_rate": 0.5098,
+        "duplicate_effects": 0,
+        "duplicate_effect_rate": 0.0,
+        "poison_redeliveries": 0,
+        "replay_deliveries": 0,
+        "resolved_without_replay": 0,
+        "quarantined": 0,
+        "remaining_dlq": 340,
+        "handler_invocations_live": 1160,
+        "handler_invocations_total": 1160
+      },
+      "classified_replay": {
+        "strategy": "classified_replay",
+        "dlq_after_live": 340,
+        "recovered": 510,
+        "intended_effects": 510,
+        "recovery_rate": 1.0,
+        "duplicate_effects": 0,
+        "duplicate_effect_rate": 0.0,
+        "poison_redeliveries": 0,
+        "replay_deliveries": 190,
+        "resolved_without_replay": 60,
+        "quarantined": 90,
+        "remaining_dlq": 0,
+        "handler_invocations_live": 1160,
+        "handler_invocations_total": 1350
+      }
+    },
+    "42": {
+      "naive_replay": {
+        "strategy": "naive_replay",
+        "dlq_after_live": 340,
+        "recovered": 510,
+        "intended_effects": 510,
+        "recovery_rate": 1.0,
+        "duplicate_effects": 60,
+        "duplicate_effect_rate": 0.1176,
+        "poison_redeliveries": 180,
+        "replay_deliveries": 520,
+        "resolved_without_replay": 0,
+        "quarantined": 0,
+        "remaining_dlq": 90,
+        "handler_invocations_live": 1160,
+        "handler_invocations_total": 1680
+      },
+      "no_replay": {
+        "strategy": "no_replay",
+        "dlq_after_live": 340,
+        "recovered": 260,
+        "intended_effects": 510,
+        "recovery_rate": 0.5098,
+        "duplicate_effects": 0,
+        "duplicate_effect_rate": 0.0,
+        "poison_redeliveries": 0,
+        "replay_deliveries": 0,
+        "resolved_without_replay": 0,
+        "quarantined": 0,
+        "remaining_dlq": 340,
+        "handler_invocations_live": 1160,
+        "handler_invocations_total": 1160
+      },
+      "classified_replay": {
+        "strategy": "classified_replay",
+        "dlq_after_live": 340,
+        "recovered": 510,
+        "intended_effects": 510,
+        "recovery_rate": 1.0,
+        "duplicate_effects": 0,
+        "duplicate_effect_rate": 0.0,
+        "poison_redeliveries": 0,
+        "replay_deliveries": 190,
+        "resolved_without_replay": 60,
+        "quarantined": 90,
+        "remaining_dlq": 0,
+        "handler_invocations_live": 1160,
+        "handler_invocations_total": 1350
+      }
+    }
+  },
+  "aggregate_mean": {
+    "naive_replay": {
+      "dlq_after_live": 340.0,
+      "recovered": 510.0,
+      "intended_effects": 510.0,
+      "recovery_rate": 1.0,
+      "duplicate_effects": 60.0,
+      "duplicate_effect_rate": 0.1176,
+      "poison_redeliveries": 180.0,
+      "replay_deliveries": 520.0,
+      "resolved_without_replay": 0.0,
+      "quarantined": 0.0,
+      "remaining_dlq": 90.0,
+      "handler_invocations_live": 1160.0,
+      "handler_invocations_total": 1680.0
+    },
+    "no_replay": {
+      "dlq_after_live": 340.0,
+      "recovered": 260.0,
+      "intended_effects": 510.0,
+      "recovery_rate": 0.5098,
+      "duplicate_effects": 0.0,
+      "duplicate_effect_rate": 0.0,
+      "poison_redeliveries": 0.0,
+      "replay_deliveries": 0.0,
+      "resolved_without_replay": 0.0,
+      "quarantined": 0.0,
+      "remaining_dlq": 340.0,
+      "handler_invocations_live": 1160.0,
+      "handler_invocations_total": 1160.0
+    },
+    "classified_replay": {
+      "dlq_after_live": 340.0,
+      "recovered": 510.0,
+      "intended_effects": 510.0,
+      "recovery_rate": 1.0,
+      "duplicate_effects": 0.0,
+      "duplicate_effect_rate": 0.0,
+      "poison_redeliveries": 0.0,
+      "replay_deliveries": 190.0,
+      "resolved_without_replay": 60.0,
+      "quarantined": 90.0,
+      "remaining_dlq": 0.0,
+      "handler_invocations_live": 1160.0,
+      "handler_invocations_total": 1350.0
+    }
+  }
+}
